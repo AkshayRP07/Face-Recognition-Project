@@ -2,13 +2,13 @@
 This project demonstrates a pipeline for face recognition using Principal Component Analysis (PCA) for dimensionality reduction and Support Vector Machines (SVM) for classification. It utilizes the Labeled Faces in the Wild (LFW) dataset to predict the names of individuals based on their facial images.
 
 Features
-Implements PCA for feature extraction and data whitening.
+ > Implements PCA for feature extraction and data whitening.
 
-Uses SVM with an RBF kernel and hyperparameter tuning via grid search.
+ >  Uses SVM with an RBF kernel and hyperparameter tuning via grid search.
 
-Visualizes predicted labels, with incorrect predictions highlighted in red.
+ > Visualizes predicted labels, with incorrect predictions highlighted in red.
 
-Generates a classification report and confusion matrix for detailed analysis.
+ > Generates a classification report and confusion matrix for detailed analysis.
 
 Installation
 Clone this repository:
@@ -26,11 +26,9 @@ bash
 python <script_name>.py
 Explore the visualization of predicted names and the classification metrics.
 
-Results
+Results:
 Accuracy: Achieves an overall accuracy of 84% on the test set.
-
 Detailed Metrics: Precision, recall, and F1-score for each class are provided.
-
 Confusion Matrix: A heatmap representation of the true vs. predicted labels.
 
 Contributing
